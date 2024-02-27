@@ -22,6 +22,6 @@ app.use('/producto', productosRoute);
 app.use('/users', userRoutes);
 
 // Exportar la aplicación
-module.exports = app;
+module.exports= ;
 
 

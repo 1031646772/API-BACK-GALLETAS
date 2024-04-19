@@ -4,8 +4,8 @@ const {Router}=require('express')
 
 const router=Router();
 
-const {Ingresar,TraerToken,GenerarTokenIniciosesion,cerrarSesion}=require("../controllers/usuarios.controllers")
-const {route}=require("../config/app")
+const {Ingresar,TraerToken,GenerarTokenIniciosesion,cerrarSesion}=require("./../controllers/usuarios.controllers")
+const {route}=require("./../config/app")
 
 router.post('/Ingresar',Ingresar);
 router.post('/CrearToken',GenerarTokenIniciosesion);

@@ -8,7 +8,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Middleware de CORS
 app.use(cors({
-  origin: 'galletasyhojaldres.up.railway.app', // Cambiar al dominio específico del frontend
+  origin: 'https://front-galletas-production.up.railway.app', // Cambiar al dominio específico del frontend
   methods: ['GET', 'POST'], // Métodos permitidos
   allowedHeaders: ['Content-Type', 'Authorization'], // Encabezados permitidos
   credentials: true // Permitir credenciales en las solicitudes

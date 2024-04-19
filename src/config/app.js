@@ -20,8 +20,3 @@ const userRoutes = require('./../routes/Users.routes');
 
 app.use('/producto', productosRoute);
 app.use('/users', userRoutes);
-
-// Exportar la aplicación
-module.exports = app;
-
-

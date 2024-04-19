@@ -6,7 +6,6 @@ const router=Router();
 
 //Tomando lo que se exporto de user.controller para usarlo
 const {anadirProductoNuevo,consultarProductos,EliminarP,TomarDatos,EnviarDatos,ActualizarP,ConsultaBarraBus,ActivarP,ConsultarProductosI}=require('../controllers/productos.controllers');
-const { route } = require('./../config/app');
 
 
 router.post('/CrearProducto',anadirProductoNuevo);

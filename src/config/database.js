@@ -6,7 +6,7 @@ const database = mysql2.createConnection({
     user: process.env.MYSQLUSER || 'root1',
     password: process.env.MYSQLPASSWORD || 'juli1234!',
     database: process.env.MYSQL_DATABASE || 'galletasyhojaldres',
-    port: process.env.MYSQLPORT || 3306,
+    //port: process.env.MYSQLPORT || 3306,
 });
 
 module.exports = database;

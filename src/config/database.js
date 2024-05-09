@@ -2,11 +2,11 @@ const mysql2 = require('mysql2');
 const { createConnection } = require('mysql2');
 
 const database = mysql2.createConnection({
-    host: process.env.MYSQLHOST || 'roundhouse.proxy.rlwy.net',
-    user: process.env.MYSQLUSER || 'root',
-    password: process.env.MYSQLPASSWORD || 'tNFwBsbdBYuMzLNnitKirkfNEjjYDZjf',
-    database: process.env.MYSQL_DATABASE || 'railway',
-    port: process.env.MYSQLPORT || 54946,
+    host: process.env.MYSQLHOST || 'http://galletasyhojaldres.mysql.database.azure.com/',
+    user: process.env.MYSQLUSER || 'root1',
+    password: process.env.MYSQLPASSWORD || 'juli1234!',
+    database: process.env.MYSQL_DATABASE || 'galletasyhojaldres',
+    port: process.env.MYSQLPORT || 3306,
 });
 
 module.exports = database;
